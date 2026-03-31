@@ -142,7 +142,7 @@ Use split-screen more or a pop-out window with LADB and Settings at the same tim
 
 ## 8. CPU Info
 
-![](https://raw.githubusercontent.com/kamgurgul/cpu-info/refs/heads/master/androidApp/src/androidMain/res/mipmap-xxhdpi/ic_launcher.png)
+![](https://raw.githubusercontent.com/kamgurgul/cpu-info/refs/heads/master/androidApp/src/main/res/mipmap-xxhdpi/ic_launcher_round.png)
 
 **provides information about device hardware and software**
 
@@ -238,7 +238,7 @@ Key features:
 
 ## 13. ReVanced Manager
 
-![](https://raw.githubusercontent.com/ReVanced/revanced-manager/refs/heads/main/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png)
+<img width=144 height=144 alt="ReVanced Manager Icon" src="https://raw.githubusercontent.com/ReVanced/revanced-manager/45cb54b44974db94c320ef9147e43ff662092479/assets/revanced-logo/revanced-logo.svg">
 
 **Customize your mobile experience by applying patches to your applications**
 
@@ -316,3 +316,105 @@ Features:
 - Material You design
 
 **Downloads:** [F-Droid](https://f-droid.org/de/packages/com.f0x1d.logfox/) - [Source Code](https://github.com/F0x1d/LogFox)
+
+## 18. LibChecker
+
+![](https://raw.githubusercontent.com/LibChecker/LibChecker/refs/heads/master/source/icons/mipmap-xxhdpi/ic_launcher.png)
+
+**view libraries used in apps in your device**
+
+This app is used to view the third-party libraries used by applications in your device. It can view the ABI architecture of the application's native library (in general, whether the application is 64-bit or 32-bit). It can also view well-known libraries marked by the rules repository on GitHub or GitLab, and can even sort and view them according to the number of libraries references.
+
+**Downloads:** [F-Droid](https://f-droid.org/packages/com.absinthe.libchecker/) - [Play Store](https://play.google.com/store/apps/details?id=com.absinthe.libchecker) - [Source Code](https://github.com/LibChecker/LibChecker)
+
+## 19. InstallerX Revived
+
+![](https://raw.githubusercontent.com/wxxsfxyzm/InstallerX-Revived/4d16c3446acdfd8ff7cbe635e5a675fa0226acfc/website/docs/public/ic_launcher.svg)
+
+**Alternative app installer with more features**
+
+Compared to stock installers, InstallerX Revived offers more installation features:
+
+- Rich installation types: APK, APKS, APKM, XAPK, APKs inside ZIP, and batch APKs.
+- Dialog-based installation
+- Notification-based installation (Live Activity API supported)
+- Automatic installation
+- Installer declaration
+- Setting install flags (can inherit Profile settings)
+- Install for specific user / all users
+- Dex2oat after successful installation
+- Block the installation of specific app's packageName or by sharedUID
+- Auto-delete APK after installation
+- No shell commands, native API calls only
+
+**Downloads:** [Source Code](https://github.com/wxxsfxyzm/InstallerX-Revived)
+
+## 20. DSU Sideloader
+
+<img height=144 width=144 alt="DSU Sideloader Icon" src="https://raw.githubusercontent.com/VegaBobo/DSU-Sideloader/refs/heads/master/app/src/main/res/drawable-xxxhdpi/app_icon_mini.jpeg">
+
+**install GSIs via Android's DSU feature**
+
+DSU (Dynamic System Updates) is a feature similar to dual-booting that was introduced in Android 10. It allows developers to boot GSIs (Generic System Images) without affecting the current system partition. This is achieved by creating new partitions to hold the GSI and separate userdata, which can then be booted as desired.
+
+**Downloads:** [F-Droid](https://f-droid.org/packages/vegabobo.dsusideloader/) - [Source Code](https://github.com/VegaBobo/DSU-Sideloader)
+
+## 21. NetGuard
+
+![](https://raw.githubusercontent.com/M66B/NetGuard/refs/heads/master/app/src/main/res/mipmap-xxhdpi/ic_launcher.png)
+
+**block access to the internet per app (no-root firewall)**
+
+Features:
+
+- No root required
+- Android 5.1 and later supported
+- IPv4/IPv6 TCP/UDP supported
+- Tethering supported
+- Multiple device users supported
+- Optionally allow when screen on
+- Optionally block when roaming
+- Optionally block system applications
+- Optionally notify when an application accesses the internet
+- Optionally record network usage per application per address
+
+**Downloads:** [Website](https://netguard.me/) - [Play Store](https://play.google.com/store/apps/details?id=eu.faircode.netguard) - [Source Code](https://github.com/m66b/netguard)
+
+## 22. WiFiAnalyzer
+
+![](https://raw.githubusercontent.com/VREMSoftwareDevelopment/WiFiAnalyzer/refs/heads/main/app/src/main/res/mipmap-xxhdpi/ic_launcher.png)
+
+**analyze Wi-Fi signals**
+
+Features:
+
+- Identify nearby Access Points
+- Graph channels signal strength
+- Graph Access Point signal strength over time
+- Analyze Wi-Fi networks to rate channels
+- HT/VHT Detection - 40/80/160/320 MHz (Requires hardware/software support)
+- 2.4 GHz, 5 GHz and 6 GHz Wi-Fi bands (Requires hardware/software support)
+- Access Point view: complete or compact
+- Estimated Distance to the Access Points
+- Export access points details
+- Available filters: Wi-Fi band, Signal strength, Security and SSID
+- Vendor/OUI Database Lookup
+
+Please note WiFiAnalyzer is not a Wi-Fi password cracking or phishing tool.
+
+**Downloads:** [Website](https://www.wifianalyzer.info/) - [Play Store](https://play.google.com/store/apps/details?id=cz.webprovider.wifianalyzer) - [F-Droid](https://f-droid.org/repository/browse/?fdid=com.vrem.wifianalyzer) - [Source Code](https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer)
+
+## 23. Magisk
+
+<img height=144 width=144 alt="Magisk Icon" src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Magisk_Logo.svg">
+
+**userspace systemless rooting**
+
+Main Features:
+
+- **MagiskSU**: Provide root access for applications
+- **Magisk Modules**: Modify read-only partitions by installing modules
+- **MagiskBoot**: The most complete tool for unpacking and repacking Android boot images
+- **Zygisk**: Run code in every Android applications' processes
+
+**Downloads:** [Source Code](https://github.com/topjohnwu/Magisk)
