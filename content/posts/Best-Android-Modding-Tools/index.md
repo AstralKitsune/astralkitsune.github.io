@@ -2,14 +2,12 @@
 title: Best Android Modding Tools
 date: 2024-12-07 00:42:10 +0100
 description: A comprehensive list of useful Android Apps for Developers, Modders, and Powerusers.
+summary: A comprehensive list of useful Android Apps for Developers, Modders, and Powerusers.
 categories: []
 tags: ["tools", "modding", "android"]     # TAG names should always be lowercase
-image:
-    path: https://developer.android.com/static/guide/practices/ui_guidelines/images/adaptive-icon-mask-applied.png
-    alt: android icon
 ---
 
-Note: This list is in no particular order. Table of contents can be seen on the right side of this page.
+This post lists some of my favorite apps, in no particular order. Hopefully some of them are useful to you :)
 
 ## 1. APK Explorer & Editor
 
@@ -48,7 +46,11 @@ Features:
 
 ## 3. MT Manager
 
-<img width=144 height=144 alt="MT Manager Icon" src="https://mt2.cn/logo.png">
+{{< figure
+  src="https://mt2.cn/logo.png"
+  width=144
+  height=144
+>}}
 
 **developer & modding tool, specialized on apk, xml, arsc, dex files**
 
@@ -58,7 +60,11 @@ Note: This app can do a lot of things, however, it's closed source and from a ch
 
 ## 4. Game Guardian
 
-<img width=144 height=144 alt="GameGuardian Icon" src="https://static.gameguardian.net/monthly_2016_12/logo.png.7ea0bf50a92f70ebc7ff10aa74e1dd55.png">
+{{< figure
+  src="https://static.gameguardian.net/monthly_2016_12/logo.png.7ea0bf50a92f70ebc7ff10aa74e1dd55.png"
+  width=144
+  height=144
+>}}
 
 **game cheat / hack / alteration tool. With it, you can modify money, HP, SP, and much more.**
 
@@ -100,7 +106,7 @@ Features:
 
 ## 6. PCAPdroid
 
-![](https://raw.githubusercontent.com/emanuele-f/PCAPdroid/refs/heads/master/app/src/main/res/mipmap-xxhdpi/ic_launcher.png)
+![](https://raw.githubusercontent.com/emanuele-f/PCAPdroid/refs/heads/master/app/src/main/res/mipmap-xhdpi/ic_launcher.png)
 
 **No-root network monitor, firewall and PCAP dumper**
 
@@ -163,7 +169,11 @@ Features:
 
 ## 9. App Cloner
 
-<img width=144 height=144 alt="App Cloner Icon" src="https://appcloner.app/dist/assets/web_hi_res_512.png">
+{{< figure
+  src="https://appcloner.app/dist/assets/web_hi_res_512.png"
+  width=144
+  height=144
+>}}
 
 **create & install multiple copies of apps**
 
@@ -238,7 +248,11 @@ Key features:
 
 ## 13. ReVanced Manager
 
-<img width=144 height=144 alt="ReVanced Manager Icon" src="https://raw.githubusercontent.com/ReVanced/revanced-manager/45cb54b44974db94c320ef9147e43ff662092479/assets/revanced-logo/revanced-logo.svg">
+{{< figure
+  src="https://raw.githubusercontent.com/ReVanced/revanced-manager/45cb54b44974db94c320ef9147e43ff662092479/assets/revanced-logo/revanced-logo.svg"
+  width=144
+  height=144
+>}}
 
 **Customize your mobile experience by applying patches to your applications**
 
@@ -273,7 +287,11 @@ distributions.
 
 ## 15. CyberChef
 
-<img height=144 width=144 alt="CyberChef Icon" src="https://raw.githubusercontent.com/gchq/CyberChef/refs/heads/master/src/web/static/images/logo/cyberchef_hat_512.png">
+{{< figure
+  src="https://raw.githubusercontent.com/gchq/CyberChef/refs/heads/master/src/web/static/images/logo/cyberchef_hat_512.png"
+  width=144
+  height=144
+>}}
 
 **The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis**
 
@@ -351,7 +369,11 @@ Compared to stock installers, InstallerX Revived offers more installation featur
 
 ## 20. DSU Sideloader
 
-<img height=144 width=144 alt="DSU Sideloader Icon" src="https://raw.githubusercontent.com/VegaBobo/DSU-Sideloader/refs/heads/master/app/src/main/res/drawable-xxxhdpi/app_icon_mini.jpeg">
+{{< figure
+  src="https://raw.githubusercontent.com/VegaBobo/DSU-Sideloader/refs/heads/master/app/src/main/res/drawable-xxxhdpi/app_icon_mini.jpeg"
+  width=144
+  height=144
+>}}
 
 **install GSIs via Android's DSU feature**
 
@@ -406,7 +428,11 @@ Please note WiFiAnalyzer is not a Wi-Fi password cracking or phishing tool.
 
 ## 23. Magisk
 
-<img height=144 width=144 alt="Magisk Icon" src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Magisk_Logo.svg">
+{{< figure
+  src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Magisk_Logo.svg"
+  width=144
+  height=144
+>}}
 
 **userspace systemless rooting**
 

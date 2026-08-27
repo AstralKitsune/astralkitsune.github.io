@@ -1,0 +1,62 @@
+baseURL = 'https://astra1dev.github.io/'
+locale = 'en-us'
+title = "Astral's Blog"
+theme = 'PaperMod'
+paginate = 10
+
+[params]
+env = "production"
+title = "Astral's Blog"
+description = "Talking about open-source software development and cyber security"
+#keywords = [ "Blog", "PaperMod" ]
+#author = "Astral✨"
+#DateFormat = "January 2, 2006"
+timeZone = "Europe/Berlin"
+
+ShowReadingTime = true
+#ShowShareButtons = true
+#ShowPostNavLinks = true
+ShowBreadCrumbs = true
+#ShowCodeCopyButtons = true
+#ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+#UseHugoToc = true
+comments = true
+showtoc = true
+
+#[params.assets]
+#favicon = "/favicon.ico"
+#favicon16x16 = "/favicon-16x16.png"
+#favicon32x32 = "/favicon-32x32.png"
+#apple_touch_icon = "/apple-touch-icon.png"
+
+[params.homeInfoParams]
+Title = "Astral's Blog"
+Content = "Talking about open-source software development and cyber security"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/astra1dev"
+
+[[params.socialIcons]]
+name = "blog source code"
+url = "https://github.com/astra1dev/astra1dev.github.io"
+
+[params.cover]
+responsiveImages = true
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 20
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
