@@ -1,4 +1,4 @@
-baseURL = 'https://astra1dev.github.io/'
+baseURL = 'https://astralkitsune.github.io/'
 locale = 'en-us'
 title = "Astral's Blog"
 theme = 'PaperMod'
@@ -36,11 +36,11 @@ Content = "Talking about open-source software development and cyber security"
 
 [[params.socialIcons]]
 name = "github"
-url = "https://github.com/astra1dev"
+url = "https://github.com/AstralKitsune"
 
 [[params.socialIcons]]
 name = "blog source code"
-url = "https://github.com/astra1dev/astra1dev.github.io"
+url = "https://github.com/astralkitsune/astralkitsune.github.io"
 
 [params.cover]
 responsiveImages = true
